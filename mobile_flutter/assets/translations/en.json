@@ -1,0 +1,18 @@
+{
+    "required_email": "Email is required.",
+    "error_invalid_email": "Invalid email, please try again",
+    "password_can_not_be_blank": "Password can not be blank.",
+    "error_short_password": "The password must have at least 8 characters.",
+    "title_login": "Login",
+    "title_error": "Error",
+    "title_agree": "OK",
+    "title_cancel": "Cancel",
+    "title_forgot_password": "Forgot password",
+    "cannot_access_internet": "Unable to access the internet, please check your internet connection and try again.",
+    "email": "Email",
+    "password": "Password",
+    "app_name": "Firefly",
+    "please_try_again": "An error has occurred. Please try again.\nThank you!",
+    "title_home": "Home",
+    "title_setting1": "Cài đặt"
+}

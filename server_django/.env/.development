@@ -1,0 +1,59 @@
+#database (mysql - postgres)
+DATABASES_NAME=mysql
+
+#config postgresql
+PGADMIN_DEFAULT_EMAIL=admin
+PGADMIN_DEFAULT_PASSWORD=admin
+PG_ADMIN_PORT=5050
+DATABASE_HOST=127.0.0.1
+POSTGRES_USER=admin
+POSTGRES_PASSWORD=admin
+DATABASE_PORT=5050
+POSTGRES_ENGINE=django.db.backends.postgresql
+POSTGRES_DB=office_db
+
+#config mysql
+MY_SQL_ENGINE=django.db.backends.mysql
+MYSQL_USER=root
+MYSQL_PASSWORD=''
+MYSQL_ROOT_PASSWORD=''
+MYSQL_DATABASE=office_db
+MYSQL_PORT=3306
+MY_SQL_HOST=127.0.0.1
+# PHP_MY_ADMIN_PORT=8088
+
+#config web
+SECRET_KEY=django-insecure-$d4iln@y7%!m*8-_#=v5#n9#t+g64s1d(9pbb!lk&*x5=7vr#9
+CACHES=redis://127.0.0.1:6379/2
+WEB_PORT=8888
+TIMEZONE=Asia/Ho_Chi_Minh
+LANGUAGE_CODE='en-us'
+TIME_ZONE='Asia/Ho_Chi_Minh'
+DEBUG=True
+
+#email host
+EMAIL_HOST=smtp.gmail.com
+SERVER_EMAIL=your_email
+EMAIL_BACKEND=django.core.mail.backends.smtp.EmailBackend
+EMAIL_PORT=587
+EMAIL_HOST_USER=your_email
+EMAIL_HOST_PASSWORD=your_password
+EMAIL_USE_TLS=True
+EMAIL_USE_SSL=False
+DEFAULT_FROM_EMAIL=your_email
+
+SID_PHONE=abc
+SECRET_PHONE=abc
+FROM_PHONE=+123456789
+
+FCM_SERVER_KEY=your_fcm_server_key
+
+ALLOW_IP_RANGE=0.0.0.0/0
+DESTROY_DATABASE_ON_RESTART=False
+
+RESET_PASSWORD_CODE_LENGTH=8
+RESET_PASSWORD_CODE_EXPIRATION_TIME=60
+RESET_PASSWORD_EXPIRATION_TIME=6000
+LINK_RESET_PASSWORD='http://localhot:8020/reset-pass&uid={}&token={}'
+
+CELERY_BROKER_URL="redis://localhost:6379/0"
